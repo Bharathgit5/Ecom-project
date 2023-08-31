@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">
+        <img src="/Ecom-logo.svg"/>
+    </a>
+    <a href="Everything.html">Everything</a>
+    <a href="Groceries.html">Groceries</a>
+    <a href="Juices.html">Juice</a>
+    </nav>
+    <h1>Checkout</h1>
+    <hr>
+    <p>Have a coupon?
+    <a href="default.asp"> Click here to enter your code</a>
+</p>
+<h2>Billing details</h2>
+<hr>
+<form>
+    <label for="fname">First Name : </label>
+    <input type="text" id="fname" name="fname" placeholder="Bharath" autocomplete="on" required>
+    <label for="lname">Last Name : </label>
+    <input type="text" id="lname" name="lname" placeholder="Yadav" required><br><br>
+    <label for="companyname">Company Name (optional) : </label><br>
+    <input type="text" id="companyname" name="companyname" required><br><br>
+    <label for="country">Country/Region : </label><br>
+    <input type="text" id="country" name="country" required placeholder="India"><br><br>
+    <label for="streetaddress">Street Address : </label><br>
+    <input type="text" id="streetaddress" name="streetaddress" placeholder="House number and Street name" required><br><br>
+    <label for="city">Town / City : </label><br>
+    <input type="text" id="city" name="city" placeholder="Hyderabad" required><br><br>
+    <label for="States">State : </label>
+    <input list="States" name="States" autocomplete="off" required>
+    <datalist id="States">
+        <option value="Andhra Pradesh"></option>
+        <option value="Telangana"></option>
+        <option value="Tamil Nadu"></option>
+        <option value="Maharastra"></option>
+        <option value="Gujarat"></option>
+        <option value="Himachal Pradesh"></option>
+        <option value="Karnataka"></option>
+        <option value="Punjab"></option>
+        <option value="Odisha"></option>
+        <option value="Kerela"></option>
+    </datalist><br><br>
+    <label for="pincode">PinCode : </label><br>
+    <input type="text" id="pincode" name="pincode" required><br><br>
+<label for="phone">Phone : </label><br>
+<input type="text" id="phone" name="phone" required><br><br>
+<label for="email">Email : </label><br>
+<input type="email" id="email" name="email" required><br><br>
+<h3>Additional Information </h3>
+<p>Oder note (optional)</p>
+</form>
+<textarea name="note" placeholder="special note on your order">
+
+</textarea>
+
+
+</body>
+</html>
