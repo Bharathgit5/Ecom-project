@@ -1,16 +1,20 @@
 .banner-img{
    position: absolute;
    left: 200px;
+   top: 150px;
 }
 .banner h1, h5,pre,button{
 text-align: left;
    position: relative;
    left:900px;
-  top: 200px;
+  top: 100px;
 margin: 0px;
 padding: 0px;
 margin-top: 20px;
 
+}
+h1{
+   width: 40%;
 }
 pre{
    margin:20px 0px;
@@ -44,9 +48,9 @@ a {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    position: sticky;
+
   top: 0;
-  background-color: white;
+background-color: white;
   border: 1px solid white;
  }
  li{
@@ -75,17 +79,33 @@ font-size: large;
 color: rgb(129, 240, 17);
 
  }
- .best-selling-products{
-   text-align: center;
-   position: relative;
-  top: 350px;
- }
- .trending-products{
 
-      text-align: center;
-      position: relative;
-     top: 350px;
-    
+ .best-selling-products  {
+   position: relative;
+   top: 350px;
+   margin: 20px 50px;
+float: left;
+   width: 200px;
+   text-align: center;
+left: 10%;
+display: block;
+ }
+ div.trending-products  {
+
+float: left;
+   margin: 20px 50px;
+
+   width: 200px;
+   text-align: center;
+left: 10%;
+ }
+
+
+
+ h2{
+   text-align: center;
+position: relative;
+top: 300px;
  }
  /*
  .banner-img{
